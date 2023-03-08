@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+div#hdbox {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  box-shadow: 0 1px 3px #498467;
+  background-color: white;
+}
+header {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  transition: 0.6s;
+}
+header h1 {
+  color: #498467;
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+header h2 {
+  color: #52b788;
+  font-size: 15px;
+}
+header ul {
+  padding: 0;
+  display: flex;
+  height: 80px;
+  justify-content: space-evenly;
+  list-style: none;
+}
+div#info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  left: 0;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+nav a {
+  padding-bottom: 10px;
+  font-size: 18px;
+  display: inline-block;
+  width: max-content;
+  text-decoration: none;
+}
+
+a#bot1 {
+  color: #498467;
+}
+a#bot2 {
+  color: #52b788;
+}
+a#bot3 {
+  color: #498467;
+}
+div#social ul {
+  justify-content: center;
+  align-items: center;
+}
+img#instalogo {
+  width: 40px;
+  margin: 10px;
+  margin-right: 0;
+}
+img#inlogo {
+  width: 40px;
+  margin: 10px;
+  margin-right: 0;
+}
+main {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 80px;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  transition: 0.6s;
+}
+div#main1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div#main2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div#main3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img#perfil {
+  width: 300px;
+  border-radius: 5%;
+  margin: 10px;
+  margin-left: 0;
+}
+section#text1 {
+  width: 450px;
+}
+main h1 {
+  color: #498467;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+main p {
+  color: #52b788;
+  font-size: 20px;
+  text-align: justify;
+}
+hr{
+  display: none;
+}
+footer{
+  box-shadow: 0 1px 7px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  transition: 0.6s;
+  background-color: white;
+  color: #52b788;
+}
+@media screen and (max-width: 450px){
+  hr{
+    display:flex;
+  }
+  nav {
+      display: none;
+  }
+  header {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    transition: 0.6s;
+    width: 100%;
+  }
+  div#social{
+    display: none;
+  }
+  div#hdbox {
+    width:100%;
+    top: 0;
+    left: 0;
+    position:absolute;
+    box-shadow: 0 1px 3px #498467;
+    background-color: white;
+  }
+  main{
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  div#main1 {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  div#main2 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  div#main3 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  img#perfil {
+    width: 300px;
+    border-radius: 5%;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  section#text1 {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+}
