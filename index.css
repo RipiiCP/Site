@@ -100,6 +100,7 @@ div#main2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 div#main3 {
   display: flex;
@@ -107,6 +108,21 @@ div#main3 {
   align-items: center;
 }
 img#perfil {
+  width: 300px;
+  border-radius: 5%;
+  margin: 10px;
+  margin-left: 0;
+}
+img#perfil21 {
+  display: none;
+}
+img#perfil22 {
+  width: 300px;
+  border-radius: 5%;
+  margin: 10px;
+  margin-left: 0;
+}
+img#perfil3 {
   width: 300px;
   border-radius: 5%;
   margin: 10px;
@@ -125,10 +141,10 @@ main p {
   font-size: 20px;
   text-align: justify;
 }
-hr{
+hr {
   display: none;
 }
-footer{
+footer {
   box-shadow: 0 1px 7px;
   height: 80px;
   display: flex;
@@ -139,15 +155,17 @@ footer{
   background-color: white;
   color: #52b788;
 }
-@media screen and (max-width: 450px){
-  hr{
-    display:flex;
+@media screen and (max-width: 450px) {
+  hr {
+    display: flex;
   }
   nav {
-      display: none;
+    display: none;
   }
   header {
     margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,25 +173,25 @@ footer{
     transition: 0.6s;
     width: 100%;
   }
-  div#social{
+  div#social {
     display: none;
   }
   div#hdbox {
-    width:100%;
+    width: 100%;
     top: 0;
     left: 0;
-    position:absolute;
+    position: absolute;
     box-shadow: 0 1px 3px #498467;
     background-color: white;
   }
-  main{
+  main {
     margin-left: 5px;
     margin-right: 5px;
     justify-content: center;
     align-items: center;
   }
   div#main1 {
-    display:block;
+    display: block;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
@@ -193,15 +211,37 @@ footer{
     margin-bottom: 10px;
   }
   img#perfil {
+    display: flex;
     width: 300px;
     border-radius: 5%;
     margin: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img#perfil21 {
+    display: flex;
+    width: 300px;
+    border-radius: 5%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img#perfil22 {
+    display: none;
+  }
+  img#perfil3 {
+    display: flex;
+    width: 300px;
+    border-radius: 5%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
   section#text1 {
     width: 90%;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
